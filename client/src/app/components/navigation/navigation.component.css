@@ -1,0 +1,42 @@
+.logo {
+    width: 135px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border-bottom: solid #9100B8;
+}
+
+.control {
+    margin-left: .4cm;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.control:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.textH {
+    font-size: 13px;
+}
+
+.textH:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.subrayar:hover {
+    border-bottom: solid #f74d4d;
+}
+
+.bordes:hover{
+    border-bottom: solid #f74d4d;
+}

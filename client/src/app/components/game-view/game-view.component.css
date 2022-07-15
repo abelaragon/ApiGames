@@ -1,0 +1,51 @@
+.cardHov:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);  
+}
+
+.card {
+  width: 15rem;
+  height: 22.5rem;
+  box-shadow: rgb(100, 13, 13) rgb(171, 37, 255) rgb(136, 0, 134); 
+  border-radius: .2cm;
+  margin: 25px;
+}
+
+.backg {
+  background-color: #393838;
+  color: rgb(255, 255, 255);
+}
+
+.cuerpoCard{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+.iconoControl {
+  margin-left: .4cm;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.iconoControl:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.neon {
+	color: #fff;
+	text-shadow:
+		0 0 5px rgb(242, 236, 67),
+		0 0 10px rgb(242, 236, 67),
+		0 0 20px rgba(242, 236, 67),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}

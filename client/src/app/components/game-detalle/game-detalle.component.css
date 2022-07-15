@@ -1,0 +1,84 @@
+.descriptionFont {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.precioUnitario {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: .2cm;
+    margin-top: 15px;
+    color: rgb(200, 26, 26);
+}
+
+.msi {     
+    width: 3.5cm;
+    height: 1cm;
+    font-weight: bold;
+    background: #fedd00;
+    color: #262626;
+    font-size: 15px;
+    padding: 6px 0 8px 6px;
+    position: relative;
+    margin-left:3cm;
+    margin-top: .8cm;
+    font-style: italic;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(12, 174, 3);
+}
+
+.iconosTD {
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.inputCantidad {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #39c;
+    margin-left: .5cm;
+    margin-right: .5cm;
+    margin-bottom: .7cm;
+}
+
+.liMinus {
+    margin-left: 1cm;
+    background-color: rgb(250, 244, 62);    
+}
+
+.liPlus{
+    background-color: rgb(130, 144, 255);    
+}
+
+.tamañoPagoT {
+    background-color: rgb(48, 169, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #39c;
+    margin-left: .5cm;
+    margin-right: .5cm;
+    margin-bottom: .7cm;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.totalaPagar{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 0cm;
+    margin-top: 10px;
+    color: rgb(200, 26, 26);
+}
+

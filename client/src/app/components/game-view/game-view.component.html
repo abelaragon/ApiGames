@@ -1,0 +1,15 @@
+<div class="col-md-3" *ngFor="let game of games"> 
+    <div class="card text-center cardHov backg">
+        <div class="card-header bg-dark text-white d-flex justify-content-between aling-items-center rounded">
+         {{game.title}}
+         <img class="iconoControl" src="https://pbs.twimg.com/profile_images/535808712162566144/FUjktX4E_400x400.png" alt="">
+        </div>
+        <img [src]="game.image" class="card-img-top">
+        <div class="card-body cuerpoCard">
+         <p class="neon">${{game.precio}}</p>
+         <a [routerLink]="['detalleProducto', game.id]" class="btn btn-danger btn-block rounded">
+             Comprar 
+         </a>
+        </div>
+    </div>
+</div>
